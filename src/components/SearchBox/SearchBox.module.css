@@ -1,0 +1,21 @@
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+  }
+  
+  .input {
+
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
