@@ -1,21 +1,20 @@
-  .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px 0;
-    gap: 10px;
-  }
-  
-  .text {
-    margin-bottom: 10px;
-  }
-  
-  .input {
+.search {
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #033a1f;
+}
 
-    width: 80%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
+.input {
+  width: 350px;
+  color:  #076938;
+  padding: 5px 10px;
+  border: 1px solid  #076938;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+

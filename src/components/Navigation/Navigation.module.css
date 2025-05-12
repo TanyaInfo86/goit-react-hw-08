@@ -1,0 +1,18 @@
+.section {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  color: #f7f3f9;
+  text-decoration: none;
+  padding: 15px 0 20px;
+  font-size: 25px;
+}
+
+.active {
+  text-decoration: 2px underline;
+  text-underline-offset: 7px;
+}
+
+

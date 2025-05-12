@@ -9,21 +9,14 @@
   margin: 20px auto;
   background-color: #fff;
 }
-
-@media screen and (max-width: 767.98px) {
-  .form {
-    width: 250px;
-  }
-}
-
 .label {
   display: flex;
   flex-direction: column;
 }
 .field {
-  color: #04701f;
+  color: #3b2d4d;
   padding: 5px 10px;
-  border: 1px solid #04701f;
+  border: 1px solid #3b2d4d;
   border-radius: 4px;
   outline: none;
   transition: border-color 0.3s ease-in-out;
@@ -31,24 +24,25 @@
 .field:hover,
 .field:focus,
 .field:active {
-  border: 1px solid #059424;
+  border: 1px solid #076938;
 }
 
 .error {
   margin-top: 3px;
   font-size: 10px;
-  color: #dd2828;
+  color: #fa0d7c;
 }
 .btnForm {
   padding: 10px 30px;
   margin: 0 auto;
   border-radius: 10px;
   border: none;
-  background-color: #076938;
+  background-color:  #076938;
   color: #f7f3f9;
   transition: background-color 0.3s ease-in-out;
 }
 
 .btnForm:hover {
-  background-color:  #076938;
+  background-color:#39058d;
 }
+

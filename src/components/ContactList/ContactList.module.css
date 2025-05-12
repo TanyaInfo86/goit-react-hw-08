@@ -1,13 +1,18 @@
-/* .list {
-    display: grid;
-    /* grid-template-columns: repeat(4, 1fr);  */
-        /* gap: 20px;  
-     padding: 0;
-    margin: 0;
-    list-style: none;}
-   */ 
-    .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  } 
+.list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.item {
+  /* width: 350px; */
+  border: 1px solid  #076938;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
